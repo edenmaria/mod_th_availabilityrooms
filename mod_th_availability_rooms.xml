@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>MOD_TH_AVAILABILITY_ROOMS</name>
+	<author>Leonardo Alviarez, Edén Arreaza</author>
+	<creationDate>September 2013</creationDate>
+	<copyright>Copyright (C) 2013. All rights reserved.</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<authorEmail>alviarez.leonardo@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>0.0.1</version>
+	<description>MOD_TH_AVAILABILITY_ROOMS_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_th_availability_rooms">mod_th_availability_rooms.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_th_availability_rooms.xml</filename>
+	</files>
+	<languages>
+		<language tag="es-ES">language/es-ES/es-ES.mod_th_availability_rooms.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.mod_th_availability_rooms.sys.ini</language>
+	</languages>
+</extension>
